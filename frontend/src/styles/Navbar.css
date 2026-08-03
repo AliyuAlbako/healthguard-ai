@@ -1,0 +1,68 @@
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 8%;
+
+    background:rgba(255,255,255,.95);
+    backdrop-filter:blur(10px);
+
+    border-bottom:1px solid #edf2f7;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+}
+
+.logo-icon{
+    font-size:2rem;
+    color:#10b981;
+}
+
+.logo h2{
+    margin:0;
+    color:#0f172a;
+}
+
+.logo span{
+    color:#64748b;
+    font-size:.85rem;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#334155;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#10b981;
+}
+
+.cta-btn{
+    background:#10b981;
+    color:white;
+    padding:12px 24px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.cta-btn:hover{
+    background:#059669;
+}

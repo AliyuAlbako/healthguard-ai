@@ -1,0 +1,39 @@
+footer {
+
+    background: #0f172a;
+
+    color: #cbd5e1;
+
+    text-align: center;
+
+    padding: 30px 8%;
+
+    border-top: 4px solid #10b981;
+
+}
+
+footer p {
+
+    margin: 0;
+
+    font-size: .95rem;
+
+    letter-spacing: .5px;
+
+}
+
+footer a {
+
+    color: #10b981;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+footer a:hover {
+
+    text-decoration: underline;
+
+}
